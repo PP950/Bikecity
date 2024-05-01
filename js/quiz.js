@@ -1,4 +1,4 @@
- // Array de perguntas e respostas
+ //Perguntas Para o Usuario
  var questions = [
     "O que signfica a sigla BMX?",
     "Qual o nome do banco da bicicleta?",
@@ -11,7 +11,7 @@
     "O que é uma bicicleta 'fixie'?",
     "Qual é o órgão de ciclismo internacional responsável por regras e competições?"
 ];
-
+//Respostas das Perguntas
 var answers = [
     "Bicycle Moto Cross",
     "Selim",
@@ -25,13 +25,13 @@ var answers = [
     "UCI (Union Cycliste Internationale)"
 ];
 
-// Função para exibir o quiz
+//Função Para Exibir o Quiz
 function startQuiz() {
     var score = 0;
 
     // Loop para fazer as perguntas
     for (var i = 0; i < questions.length; i++) {
-        // Pergunta ao usuário e captura da resposta
+        // Pergunta ao usuário e Guarda a resposta
         var userAnswer = prompt(questions[i]);
 
         // Verifica se a resposta do usuário está correta

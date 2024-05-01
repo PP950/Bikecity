@@ -18,7 +18,7 @@
  }
  
  //SlideShow
- let imagens = ['img/produto1.jpg', 'img/produto2.jpg', 'img/produto3.jpg', 'img/produto4.jpg'];
+let imagens = ['img/produto1.jpg', 'img/produto2.jpg', 'img/produto3.jpg', 'img/produto4.jpg'];
 let index = 0;
 let time = 3000;
 
@@ -29,11 +29,11 @@ function slideShow() {
     if (index == imagens.length) {
         index = 0;
     }
-    setTimeout(slideShow, time); // Chama a função slideShow diretamente
+    setTimeout(slideShow, time);
 }
 slideShow(); // Chama a função slideShow para iniciar o slideshow
 
-//Alerta 
+//Alerta Para o Usuario 
 alert("seja bem vindo")
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
