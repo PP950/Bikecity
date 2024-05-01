@@ -33,7 +33,7 @@ function slideShow() {
 }
 slideShow(); // Chama a função slideShow para iniciar o slideshow
 
-//alerta
+//Alerta 
 alert("seja bem vindo")
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
