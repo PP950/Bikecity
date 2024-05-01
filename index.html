@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--CSS externo-->
     <link rel="stylesheet" href="./css/estilo.css">
     <title>BikeCity</title>
 </head>
 <body>
+<!--botão para mudar o fundo-->
     <button onclick="changeBackgroundColor()">Mudar Cor de Fundo</button>
 
 
     <section id="Banner">
         <img id="imgBanner" width="450px" height="350px">
     </section>
+    <h2>Login</h2>
+    <form id="loginForm">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" required><br><br>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" required><br><br>
+        
+        <button type="submit">Entrar</button>
+    </form>
+<!--Formulário-->
+    <h2>Formulário de Contato</h2>
+    <form id="contactForm">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" required><br><br>
+        
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" required><br><br>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required><br><br>
+        
+        <button type="submit">Enviar</button>
+
     <script src="./js/script.js"></script>
 </body>
 </html>

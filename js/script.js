@@ -33,3 +33,50 @@ function slideShow() {
 }
 slideShow(); // Chama a função slideShow para iniciar o slideshow
 
+//alerta
+alert("seja bem vindo")
+
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita o envio do formulário
+
+    // Captura dos valores dos campos de entrada
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
+
+    // Verifica se os campos estão preenchidos
+    if (username.trim() === '' || password.trim() === '') {
+        alert('Por favor, preencha todos os campos.');
+        return;
+    }
+
+    // Verifica as credenciais
+    if (username === 'usuario' && password === 'senha') {
+        // Redireciona para a página do quiz
+        window.location.href = 'quiz.html';
+    } else {
+        alert('Credenciais inválidas. Tente novamente.');
+    }
+});
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Evita o envio do formulário
+
+    // Captura dos valores dos campos de entrada
+    var name = document.getElementById('name').value;
+    var phone = document.getElementById('phone').value;
+    var email = document.getElementById('email').value;
+
+    // Verifica se os campos estão preenchidos
+    if (name.trim() === '' || phone.trim() === '' || email.trim() === '') {
+        alert('Por favor, preencha todos os campos.');
+        return;
+    }
+
+    // Lógica para enviar os dados do formulário (substitua isso com sua lógica de envio real)
+    alert('Dados do formulário enviados com sucesso:\nNome: ' + name + '\nTelefone: ' + phone + '\nE-mail: ' + email);
+    
+    // Limpa os campos do formulário após o envio
+    document.getElementById('name').value = '';
+    document.getElementById('phone').value = '';
+    document.getElementById('email').value = '';
+});
