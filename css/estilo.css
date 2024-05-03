@@ -99,12 +99,12 @@ nav li{
     background: #000;
 }
 .container {
-    display: flex; /* Adiciona flexbox para alinhar os cards */
+    display: flex; /*Adiciona flexbox para alinhar os cards */
     flex-wrap: wrap;
-    justify-content: flex-start; /* Alinha os itens da esquerda para a direita */
+    justify-content: flex-start; /*Alinha os itens da esquerda para a direita */
     margin-top: 20px;
 }
-
+/*Estilzando os cards*/
 .card {
     width: 200px;
     border: 1px solid #ccc;
