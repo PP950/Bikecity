@@ -1,5 +1,5 @@
  // Lista de cores de fundo
- const backgroundColors = ['#ffcccc', '#ccffcc', '#ccccff'];
+ const backgroundColors = ['#84b6f4', '#fdcae1', '#f0f0f0'];
  let currentColorIndex = 0;
 
  // Função para mudar a cor de fundo

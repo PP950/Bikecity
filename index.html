@@ -9,7 +9,7 @@
 </head>
 <body>
 <!--botão para mudar o fundo-->
-    <button onclick="changeBackgroundColor()">Mudar Cor de Fundo</button>
+    <button id="mudarCor" onclick="changeBackgroundColor()">Mudar Cor de Fundo</button>
 
 
     <section id="Banner">
@@ -20,8 +20,7 @@
     <form id="loginForm">
         <label for="username">Nome de Usuário:</label>
         <input type="text" id="username" required><br><br>
-        
-        <label for="password">Senha:</label>
+        <label id="senhaLogin" for="password">Senha:</label>
         <input type="password" id="password" required><br><br>
         
         <button type="submit">Entrar</button>
@@ -42,4 +41,4 @@
 
     <script src="./js/script.js"></script>
 </body>
-</html>
+        
