@@ -18,7 +18,7 @@
  }
  
  //SlideShow
-let imagens = ['img/produto1.jpg', 'img/produto2.jpg', 'img/produto3.jpg', 'img/produto4.jpg'];
+let imagens = ['img/bike1.jpg', 'img/bike2.jpg', 'img/bike3.png', 'img/bike4.jpg'];
 let index = 0;
 let time = 3000;
 
