@@ -23,7 +23,7 @@ var answers = [
     "Um pneu que não requer um tubo de ar interno",
     "Mountain Bike",
     "Uma bicicleta de marcha única",
-    "UCI (Union Cycliste Internationale)"
+    "UCI"
 ];
 
 //Função Para Exibir o Quiz
