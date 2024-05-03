@@ -1,4 +1,4 @@
-// Perguntas Para o Usuario
+//Perguntas Para o Usuario
 var questions = [
     "O que signfica a sigla BMX?",
     "Qual o nome do banco da bicicleta?",
@@ -12,7 +12,7 @@ var questions = [
     "Qual é o órgão de ciclismo internacional responsável por regras e competições?"
 ];
 
-// Respostas das Perguntas
+//Respostas das Perguntas
 var answers = [
     "Bicycle Moto Cross",
     "Selim",
@@ -26,31 +26,31 @@ var answers = [
     "UCI (Union Cycliste Internationale)"
 ];
 
-// Função Para Exibir o Quiz
+//Função Para Exibir o Quiz
 function startQuiz() {
     var score = 0;
-    var respostasCorretas = ""; // String para armazenar respostas corretas
+    var respostasCorretas = ""; //Armazenar respostas corretas
 
-    // Loop para fazer as perguntas
+    //Loop para fazer as perguntas
     for (var i = 0; i < questions.length; i++) {
-        // Pergunta ao usuário e Guarda a resposta
+        //Pergunta ao usuário e Guarda a resposta
         var userAnswer = prompt(questions[i]);
 
-        // Verifica se a resposta do usuário está correta
+        //Verifica se a resposta do usuário está correta
         if (userAnswer.toLowerCase() === answers[i].toLowerCase()) {
-            score++; // Incrementa a pontuação se a resposta estiver correta
+            score++; //Adiciona a pontuação se a resposta estiver correta
             respostasCorretas += "<p><strong>Pergunta " + (i + 1) + ":</strong> " + questions[i] + "<br><strong>Resposta correta:</strong> " + answers[i] + "</p>";
         }
     }
 
-    // Exibe o resultado na tela
+    //Exibe o resultado na tela
     var resultadoHTML = "<h3>Você acertou " + score + " de " + questions.length + " perguntas.</h3>";
     resultadoHTML += "<h3>Respostas corretas:</h3>";
     resultadoHTML += respostasCorretas;
     document.getElementById("resultadoQuiz").innerHTML = resultadoHTML; // Exibe o resultado na div
 }
 
-// Chama a função para iniciar o quiz
+//Chama a função para iniciar o quiz
 startQuiz();
 
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css"></link>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Bikecity</a></li>
+                <button id="mudarCor" onclick="changeBackgroundColor()">Mudar Cor de Fundo</button>
+            </ul>
+        </nav>
+<!--Preenchimento do Login-->
+<h2>Login</h2>
+<form id="loginForm">
+    <label for="username">Nome de Usuário:</label>
+    <input type="text" id="username" required><br><br>
+    <label id="senhaLogin" for="password">Senha:</label>
+    <input type="password" id="password" required><br><br>
+
+    <button type="submit">Entrar</button>
+</form>
+<script src="./js/login.js"></script>
+</body>
+</html>

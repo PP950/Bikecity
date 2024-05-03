@@ -1,30 +1,30 @@
-/* Estilos para o corpo da página */
+/*Estilos para o corpo da página */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-/*estilizando as informações*/
+/*Estilizando as informações*/
 h1{
     color: skyblue
 }
 
-/* Estilos para o cabeçalho */
+/*Estilos para o cabeçalho */
 h2 {
     color: #333;
 }
 
-/* Estilos para os formulários */
+/*Estilos para os formulários */
 form {
     margin-bottom: 20px;
 }
-
+/*Alterando a cor de texto dos formulários */
 label {
     display: block;
     margin-bottom: 5px;
     color: #555;
 }
-
+/*Estilizando os formulários */
 input[type="text"],
 input[type="password"],
 input[type="tel"],
@@ -34,7 +34,7 @@ input[type="email"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
 }
-
+/*Estilizando os Botões */
 button {
     padding: 10px 20px;
     background-color:skyblue;
@@ -44,25 +44,21 @@ button {
     float:right;
 }
 
-button:hover {
-    background-color: skyblue;
-}
-
-/* Estilos para o botão de mudar cor de fundo */
+/*Estilos para o botão de mudar cor de fundo */
 button#changeBackground {
     margin-bottom: 20px;
 }
 
-/* Estilos para a seção do banner */
+/*Estilos para a seção do banner */
 #Banner {
     margin-bottom: 20px;
 }
-
+/*Deixar o SlideShow no Centro */
 #imgBanner {
     display: block;
     margin: 0 auto;
 }
-/* Estilos para o layout responsivo */
+/*Estilos para as caixas de respostas ficarem centralizadas */
 @media (min-width: 768px) {
     body {
         padding: 20px;
@@ -73,6 +69,7 @@ button#changeBackground {
         margin: 0 auto;
     }
 }
+/*Estilizar as caixas de informações*/
 header{
     width: 100%;
 }
@@ -100,4 +97,23 @@ nav li{
     justify-content: center;
     color:skyblue;
     background: #000;
+}
+.container {
+    display: flex; /* Adiciona flexbox para alinhar os cards */
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinha os itens da esquerda para a direita */
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color:skyblue
+}
+
+.card img {
+    width: 100%;
 }
