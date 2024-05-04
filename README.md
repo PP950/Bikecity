@@ -15,3 +15,6 @@ Explicação sobre como usar o projeto. Inclua exemplos, se necessário.
 O código-fonte está hospedado no seguinte repositório:
 
 [Link para o Repositório BikeCity](https://github.com/PP950/Bikecity.git)
+
+##Link do Git Page
+https://pp950.github.io/Bikecity/
