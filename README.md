@@ -10,6 +10,11 @@ Instruções sobre como instalar e configurar o projeto localmente.
 
 Explicação sobre como usar o projeto. Inclua exemplos, se necessário.
 
+## Integrantes do grupo
+RM556080 Paulo Poças
+RM554606 Guilherme Gomes
+RM554887 Pedro Gaspar Fernandes Ferrari
+RM554503 André Luiz Fernandes De Queiroz
 ## Repositório
 
 O código-fonte está hospedado no seguinte repositório:
